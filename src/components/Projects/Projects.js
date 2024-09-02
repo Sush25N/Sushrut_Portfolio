@@ -58,8 +58,8 @@ function Projects() {
                   </li>
                 </ul>
               }
-              ghLink="https://github.com/rahuljha4171/Portfolio-Website"
-              demoLink="https://rahuljha.info/"
+              ghLink="https://github.com/Sush25N/Sushrut_Portfolio"
+              demoLink="https://famous-gingersnap-bb4edb.netlify.app/"
             />
           </Col>
           <Col md={6} lg={4} className="project-card">
