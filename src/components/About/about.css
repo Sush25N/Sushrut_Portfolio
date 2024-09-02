@@ -1,0 +1,222 @@
+.about-section {
+  position: relative !important;
+  padding-top: 150px !important;
+  padding-bottom: 30px !important;
+  background-color: var(--clr-bg) !important;
+}
+
+.tech-icons {
+  font-size: 4.5em !important;
+  margin: 15px !important;
+  padding: 10px !important;
+  opacity: 0.93 !important;
+  color: var(--clr-primary);
+  vertical-align: middle !important;
+  text-align: center !important;
+  background: transparent !important;
+  box-shadow: var(--shadow) !important;
+  border-radius: 5px !important;
+  display: table !important;
+  overflow: hidden !important;
+  transition: all 0.4s ease 0s !important;
+}
+
+.quote-card-view {
+  background: transparent !important;
+  border: none !important;
+  color: var(--clr-txt) !important;
+  box-shadow: var(--shadow);
+}
+
+.gitContainer {
+  padding: 15px;
+  background: transparent !important;
+  box-shadow: var(--shadow);
+  font-size: 30px !important;
+  color: var(--clr-txt);
+  border-radius: 5px;
+  display: flex;
+  justify-content: center;
+}
+
+@media (max-width: 767px) {
+  .tech-icons {
+    margin: 10px !important;
+  }
+}
+
+.tech-icons:hover {
+  transform: scale(1.08) !important;
+  overflow: hidden !important;
+}
+
+.tech-icon-images {
+  padding: 20px !important;
+  line-height: 1.6 !important;
+}
+
+.primary-header {
+  color: var(--clr-primary) !important;
+}
+
+.about-skills {
+  list-style: none !important;
+  text-align: left !important;
+  padding-left: 1px !important;
+}
+
+.skills-container {
+  display: flex;
+  justify-content: space-between;
+  gap: 20px;
+  /* padding: 0 15px; */
+  padding: 20px;
+}
+
+.skills-list {
+  flex: 1;
+  min-width: 200px;
+  border: 2px solid var(--clr-primary);
+  border-radius: 8px;
+  padding: 15px;
+  box-shadow: var(--shadow);
+}
+
+.skills-list ul {
+  list-style: none;
+  padding: 0;
+}
+
+.skills-list li {
+  display: flex;
+  align-items: center;
+  margin-bottom: 8px;
+}
+
+.skills-list h3 {
+  margin-bottom: 15px;
+  font-size: 1.2rem;
+  color: var(--clr-primary);
+}
+
+.about-skills {
+  font-size: 1rem;
+  margin-left: 8px;
+  color: var(--clr-txt);
+}
+
+@media (max-width: 767px) {
+  .skills-container {
+    flex-direction: column;
+    padding: 0;
+  }
+
+  .skills-list {
+    margin: 0;
+    margin-bottom: 20px;
+  }
+}
+
+.git {
+  color: var(--clr-primary);
+}
+
+/* Common styles */
+.about-container {
+  padding: 20px;
+}
+
+.about-card-view {
+  background-color: var(--clr-bg);
+  color: var(--clr-txt);
+  box-shadow: var(--shadow);
+  transition: background-color 0.3s ease, color 0.3s ease;
+}
+
+.skills-list {
+  list-style-type: none;
+  padding: 0;
+  margin: 0;
+}
+
+.about-skills {
+  display: flex;
+  align-items: center;
+  margin-bottom: 8px;
+  font-size: 1rem;
+  transition: color 0.3s ease;
+}
+
+.about-skills svg {
+  margin-right: 8px;
+}
+
+/* STyel */
+
+.skills-card-view {
+  background-color: var(--clr-bg);
+  color: var(--clr-txt);
+  box-shadow: var(--shadow);
+  transition: background-color 0.3s ease, color 0.3s ease;
+}
+
+.skills-list-container {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 15px;
+}
+
+.skills-list-container .about-skills {
+  flex: 1;
+  min-width: 300px; /* Adjust as necessary */
+  display: flex;
+  align-items: center;
+  font-size: 1rem;
+  color: var(--clr-txt);
+}
+
+.skills-list-container .about-skills svg {
+  margin-right: 8px;
+}
+
+/* Dark theme specific styles */
+.dark .skills-card-view {
+  background-color: #121212;
+  color: #ffffff;
+}
+
+.dark .about-skills {
+  color: #dadada;
+}
+
+/* Light theme specific styles */
+.light .skills-card-view {
+  background-color: #ffffff;
+  color: #000000;
+}
+
+.light .about-skills {
+  color: #000000;
+}
+
+/* Dark theme specific styles */
+.dark .about-card-view,
+.dark .skills-card-view {
+  background-color: #121212;
+  color: #ffffff;
+}
+
+.dark .about-skills {
+  color: #dadada; /* Adjust for a more vibrant look in dark mode */
+}
+
+/* Light theme specific styles */
+.light .about-card-view,
+.light .skills-card-view {
+  background-color: #ffffff;
+  color: #000000;
+}
+
+.light .about-skills {
+  color: #000000; /* Adjust for a vibrant look in light mode */
+}

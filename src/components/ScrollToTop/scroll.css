@@ -1,0 +1,59 @@
+/* .scroll-up {
+  position: fixed;
+  bottom: 75px;
+  right: 30px;
+  border: none;
+  font-size: 1.8rem;
+  cursor: pointer;
+  z-index: 100;
+  color: var(--clr-txt);
+  background: transparent !important;
+  transition: 0.5s;
+}
+
+.scroll-up:hover {
+  color: var(--clr-primary);
+}
+
+@media (max-width: 570px) {
+  .scroll-up {
+    height: 40px;
+    width: 40px;
+  }
+} */
+
+.scroll-up,
+.scroll-down {
+  position: fixed;
+  border: none;
+  font-size: 1.8rem;
+  cursor: pointer;
+  z-index: 100;
+  color: var(--clr-txt);
+  background: transparent !important;
+  transition: 0.5s;
+}
+
+.scroll-up {
+  bottom: 75px;
+  right: 30px;
+}
+
+.scroll-down {
+  bottom: 15px; /* Position the scroll down button slightly above the bottom edge */
+  right: 30px;
+}
+
+.scroll-up:hover,
+.scroll-down:hover {
+  color: var(--clr-primary);
+}
+
+@media (max-width: 570px) {
+  .scroll-up,
+  .scroll-down {
+    height: 40px;
+    width: 40px;
+    font-size: 1.5rem; /* Slightly smaller font size for smaller screens */
+  }
+}
